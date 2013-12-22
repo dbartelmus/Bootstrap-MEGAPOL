@@ -1,0 +1,45 @@
+/******************carousel**********************/
+.car_box{
+  background:url("../images/bgQuotes.png") 0 0 repeat; padding: 20px 79px 16px 81px; margin:3px 0 0 0;overflow:hidden; border-radius:5px;position:relative; 
+}
+
+#carousel{position:relative;}
+#carousel img{ margin-bottom:13px;}
+#carousel .es-carousel{width:100%; overflow:hidden;}
+#carousel li{float:left; position:relative;}
+#carousel .es-nav-prev, #carousel .es-nav-next{
+	display:block !important;
+	overflow:hidden;
+	background-position:center top;
+	background-repeat:no-repeat;
+	position:absolute;
+	text-indent: -100%;
+	font-size:0;
+	line-height:0;
+	white-space: nowrap;
+	cursor:pointer;
+	z-index:996;
+  top:50px;
+  width:26px;
+  height:105px;
+}
+#carousel .es-nav-prev{background-image:url("../images/button-prev.png"); left: -62px;}
+#carousel .es-nav-next{background-image:url("../images/button-next.png"); right:-58px;}
+	#carousel .es-nav-prev:hover, #carousel .es-nav-next:hover{background-position:0 -105px;}
+
+/*-------------------------------------------------------------------*/
+
+@media only screen and (max-width: 995px) {
+  #carousel li{width: 152px !important;}
+}
+
+@media only screen and (max-width: 767px) {
+  #carousel li{width: 260px !important;}
+  #carousel li img{width: 100%;}
+  #carousel .es-nav-prev, #carousel .es-nav-next{top: 120px;}
+}
+
+@media only screen and (max-width: 479px) {
+#carousel li{width: 140px !important;}
+#carousel .es-nav-prev, #carousel .es-nav-next{top: 60px;}
+}
