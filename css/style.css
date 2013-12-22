@@ -168,7 +168,7 @@ footer a{ color:#fff;}
 
 .padbot5{ padding-bottom:18px;}
 /* Left & Right alignment */
-.blockquote{display:block;quotes:none;font-size:26px; color:#fff;line-height:30px;font-weight:normal;background:none !important;padding:0 !important;}
+.blockquote{display:block;quotes:none;font-size:19px; color:#fff;line-height:30px;font-weight:normal;background:none !important;padding:0 !important;}
 .quotes{background: url("../images/bgQuotes.png") 0 0 repeat;padding:25px 20px 34px 33px;position:relative; margin:3px 0 0 0; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
 .quotes span{ display:block; background:url("../images/qoutes.png") 0 0 no-repeat; width:26px; height:26px; left:36px; bottom:-26px; position:absolute;}
 .comment{ text-align:right; padding:21px 33px 37px 0; }	
